@@ -1,0 +1,7 @@
+xcrun simctl create iPad-Pro-11-inch---4th-generation- com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-4th-generation-8GB com.apple.CoreSimulator.SimRuntime.iOS-18-5
+
+xcrun simctl boot 1F828CA2-2CD2-436C-921D-B51FB23F88EA
+
+xcrun simctl rename booted iPad 11 Egor
+
+xcrun simctl io booted screenshot ~/Desktop/screen.png
